@@ -3,7 +3,7 @@
 ## Compilando imagem Docker
 
 ```bash
-git clone https://github.com/irmaos-dev/mural.git --branch feat/issue-15-montar-dockerimage-com-client-e-server
+git clone -b "feat/issue-15-montar-dockerimage" https://github.com/marcoshssilva/mural.git
 cd mural
 docker build -f ./docs/docker/Dockerfile --tag irmaodev/mural:dev . 
 ```
